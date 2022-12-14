@@ -1,6 +1,6 @@
 {
   "name": "@joserodriguestw/facade",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -91,7 +91,7 @@
     },
     "plugins": {
       "@release-it/conventional-changelog": {
-        "infile":"CHANGELOG.md",
+        "infile": "CHANGELOG.md",
         "preset": "angular"
       }
     }
