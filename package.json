@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepack": "bob build",
-    "release": "release-it"
+    "release": "release-it minor --git.pushArgs=--follow-tags --git.pushArgs=--force"
   },
   "dependencies": {
     "react": "18.1.0",
