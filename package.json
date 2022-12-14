@@ -1,5 +1,5 @@
 {
-  "name": "@joseRodriguesTW/facade",
+  "name": "@joserodriguestw/facade",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepack": "bob build",
-    "release": "release-it minor --git.pushArgs=--follow-tags --git.pushArgs=--force"
+    "release": "release-it"
   },
   "dependencies": {
     "react": "18.1.0",
@@ -84,7 +84,7 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": false
     },
     "github": {
       "release": true
