@@ -1,7 +1,7 @@
 {
   "name": "@joserodriguestw/facade",
-  "version": "0.0.2",
-  "private": true,
+  "version": "0.0.3",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -36,7 +36,7 @@
     "release-it": "^15.5.1",
     "typescript": "^4.8.3"
   },
-  "repository": "https://github.com/joseRodriguesTW/facade",
+  "repository": "https://github.com/joseRodriguesTW/facade.git",
   "jest": {
     "preset": "react-native",
     "moduleFileExtensions": [

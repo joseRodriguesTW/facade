@@ -1,17 +1,20 @@
 class Test {
   private static instance: Test;
+  private APP_NAME: string;
 
-  private constructor() {}
+  private constructor(APP_NAME: string) {
+    this.APP_NAME = APP_NAME;
+  }
 
-  public static getInstance(): Test {
+  public static getInstance(APP_NAME: string): Test {
     if (!Test.instance) {
-      Test.instance = new Test();
+      Test.instance = new Test(APP_NAME);
     }
     return Test.instance;
   }
 
   public print(): void {
-    console.log('PRINTING');
+    console.log(this.APP_NAME);
   }
 }
 
